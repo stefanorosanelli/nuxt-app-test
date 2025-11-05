@@ -1,0 +1,66 @@
+# Dependencies
+node_modules/
+
+# Production build artifacts
+.nuxt/
+.output/
+dist/
+build/
+
+# Environment files
+.env
+.env.*
+!.env.example
+
+# Cache directories
+.cache/
+.tmp/
+
+# IDE and editor files
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# OS generated files
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+
+# Git
+.git/
+.gitignore
+
+# Docker
+Dockerfile*
+.dockerignore
+docker-compose*.yml
+
+# Documentation
+README.md
+*.md
+
+# Test files
+test/
+tests/
+coverage/
+
+# Logs
+logs/
+*.log
+
+# History
+.history/
+
+# Other common files to exclude
+.eslintrc*
+.prettierrc*
+tsconfig.json
+jest.config.*
+*.config.js
+*.config.ts
